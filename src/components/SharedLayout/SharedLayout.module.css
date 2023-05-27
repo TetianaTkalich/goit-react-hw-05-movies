@@ -8,9 +8,9 @@
 }
 
 .nav_link:hover {
-    color: blueviolet;
+    color: rgb(64, 226, 43);
 }
 
 .nav_link:active {
-    color: blueviolet;
+    color: rgb(43, 226, 98);
 }
