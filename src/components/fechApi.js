@@ -1,10 +1,5 @@
 import axios from 'axios';
 
-
-//https://api.themoviedb.org/3/movie/550?api_key=4e74e3ce82b875f858122cbc5cfec5bf
-
-
-
 const KEY = '4e74e3ce82b875f858122cbc5cfec5bf';
 
 export const getMovies = async () => {
