@@ -29,4 +29,4 @@ MoviesList.propTypes = {
     })
   ).isRequired,
 };
-export default MoviesLis
+export default MoviesList
