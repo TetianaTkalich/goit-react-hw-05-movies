@@ -1,6 +1,9 @@
 import axios from 'axios';
 
-const KEY = '4e74e3ce82b875f858122cbc5cfec5bf';
+ 
+// 7090c634f78ae231a1147c5f808c29ff
+const KEY = '7090c634f78ae231a1147c5f808c29ff';
+// const KEY = '4e74e3ce82b875f858122cbc5cfec5bf';
 
 export const getMovies = async () => {
     try {
