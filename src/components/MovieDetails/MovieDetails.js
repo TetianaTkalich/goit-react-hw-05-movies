@@ -6,7 +6,6 @@ import BackLink from 'components/BackLink/BackLink'
 
 import NoImage from 'components/img/no-img.png' 
 
-
 function DetailsMoviePage() {
   const [movie, setMovie] = useState(null);
   const [error, setError] = useState(null);
