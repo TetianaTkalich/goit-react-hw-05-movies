@@ -2,14 +2,13 @@ import { getMoviesByQuery } from 'components/fechApi';
 import { useEffect, useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 
-import  MoviesList from 'components/MoviesList/MoviesList';
+import  MoviesList from '../../components/MoviesList/MoviesList';
 
 const Movies = () => {
   const [movies, setMovies] = useState(null);
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState(null);
-    const [searchParams, setSearchParams] = useSearchParams();
-    
+    const [searchParams, setSearchParams] = useSearchParams();    
     const query = searchParams.get('query');
     
   useEffect(() => {
